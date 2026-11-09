@@ -10,11 +10,6 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { profile } from "@/data/portfolio";
 import { featuredProject, otherProjects } from "@/data/projects";
 
-/**
- * এই ফাইলে নতুন প্রজেক্ট যোগ করার দরকার নেই।
- * নতুন প্রজেক্ট শুধু data/projects.js এ যোগ করুন, এখানে নিজে থেকেই কার্ড হয়ে আসবে।
- * (প্লেসহোল্ডার প্রজেক্ট শুধু npm run dev এ দেখা যায়, পাবলিশ করা সাইটে লুকানো থাকে)
- */
 export default function Projects() {
   return (
     <Section id="projects" labelledBy="projects-title">

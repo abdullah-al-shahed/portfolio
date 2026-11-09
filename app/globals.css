@@ -1,26 +1,166 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-canvas: #0a0c10;
+  --color-surface: #0e1117;
+  --color-card: #12151c;
+  --color-line: #1f2430;
+  --color-line-strong: #2b313c;
+  --color-ink: #f2f5f9;
+  --color-soft: #c4cbd6;
+  --color-muted: #8b93a1;
+  --color-accent: #9db8ff;
+  --color-accent-strong: #7898f5;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgb(157 184 255 / 0.28);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-canvas);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #272c35;
+    border: 2px solid var(--color-canvas);
+    border-radius: 999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #363d49;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .hero-grid {
+    -webkit-mask-image: radial-gradient(
+      ellipse 80% 70% at 50% 20%,
+      #000 20%,
+      transparent 75%
+    );
+    mask-image: radial-gradient(
+      ellipse 80% 70% at 50% 20%,
+      #000 20%,
+      transparent 75%
+    );
+  }
+
+  .text-gradient-subtle {
+    background: linear-gradient(180deg, #ffffff 0%, #aeb8c8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  
+@layer utilities {
+  /* হিরোর পেছনের নরম অ্যাকসেন্ট গ্লো */
+  .hero-glow {
+    background:
+      radial-gradient(
+        480px circle at 78% 30%,
+        rgb(157 184 255 / 0.24),
+        transparent 70%
+      ),
+      radial-gradient(
+        420px circle at 12% 8%,
+        rgb(120 152 245 / 0.16),
+        transparent 70%
+      );
+  }
+ 
+  /* গ্লাস কার্ড */
+  .glass {
+    background-color: rgb(16 19 24 / 0.65);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+  }
+ 
+  /* অ্যাকসেন্ট গ্র্যাডিয়েন্ট টেক্সট */
+  .text-gradient-accent {
+    background: linear-gradient(120deg, #ffffff 0%, #9db8ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+ 
+  /* হালকা ভাসমান অ্যানিমেশন */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-delayed {
+    animation: float 7s ease-in-out 1.2s infinite;
+  }
+}
+ 
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

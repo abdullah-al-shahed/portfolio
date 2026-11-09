@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Project preview placeholder 01</title>
+  <desc id="desc">An abstract placeholder for a future project case study. Replace with a real screenshot.</desc>
+
+  <rect width="1600" height="1000" fill="#090b0e"/>
+  <circle cx="1380" cy="760" r="300" fill="none" stroke="#151a21" stroke-width="1.5"/>
+  <circle cx="1380" cy="760" r="220" fill="none" stroke="#151a21" stroke-width="1.5"/>
+
+  <text x="120" y="70" fill="#8b93a1" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="4">CASE STUDY / PLACEHOLDER 01</text>
+  <text x="1480" y="70" text-anchor="end" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2.5">PREVIEW PENDING</text>
+
+  <rect x="230" y="160" width="1140" height="680" rx="22" fill="#0e1116" stroke="#2b313c" stroke-width="1.5" stroke-dasharray="10 10"/>
+  <rect x="230" y="160" width="1140" height="56" rx="22" fill="#11151b"/>
+  <rect x="230" y="192" width="1140" height="24" fill="#11151b"/>
+  <line x1="230" y1="216" x2="1370" y2="216" stroke="#232932"/>
+  <circle cx="264" cy="189" r="5" fill="#3a414d"/>
+  <circle cx="284" cy="189" r="5" fill="#3a414d"/>
+  <circle cx="304" cy="189" r="5" fill="#3a414d"/>
+
+  <g transform="translate(330 300)">
+    <rect width="280" height="200" rx="14" fill="#12161d" stroke="#242a33"/>
+    <rect x="20" y="24" width="150" height="14" rx="7" fill="#333b48"/>
+    <rect x="20" y="54" width="220" height="9" rx="4.5" fill="#252c35"/>
+    <rect x="20" y="74" width="180" height="9" rx="4.5" fill="#252c35"/>
+    <rect x="20" y="150" width="92" height="28" rx="14" fill="#1a2434" stroke="#2b3a52"/>
+    <rect x="128" y="150" width="60" height="28" rx="14" fill="#151b24" stroke="#232a33"/>
+  </g>
+
+  <g transform="translate(650 300)">
+    <rect width="420" height="200" rx="14" fill="#12161d" stroke="#242a33"/>
+    <rect x="22" y="24" width="80" height="9" rx="4.5" fill="#6d7786"/>
+    <text x="22" y="88" fill="#f2f5f9" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.8">Project preview</text>
+    <text x="22" y="120" fill="#7d8694" font-family="Segoe UI, Arial, sans-serif" font-size="13">Add a screenshot and the real project details.</text>
+    <rect x="22" y="150" width="118" height="9" rx="4.5" fill="#252c35"/>
+    <rect x="22" y="170" width="86" height="9" rx="4.5" fill="#252c35"/>
+  </g>
+
+  <g transform="translate(1060 280)">
+    <rect width="280" height="240" rx="14" fill="#12161d" stroke="#242a33"/>
+    <text x="140" y="132" text-anchor="middle" fill="#9db8ff" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="600" letter-spacing="-4" opacity="0.8">01</text>
+    <text x="140" y="170" text-anchor="middle" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="3">PROJECT SLOT</text>
+  </g>
+
+  <g transform="translate(330 540)">
+    <rect width="740" height="190" rx="14" fill="#12161d" stroke="#242a33"/>
+    <rect x="22" y="22" width="220" height="146" rx="10" fill="#1a2028"/>
+    <path d="M58 142V68M108 142V94M158 142V52M208 142V112" stroke="#32405a" stroke-width="14" stroke-linecap="round"/>
+    <rect x="280" y="40" width="250" height="10" rx="5" fill="#39414e"/>
+    <rect x="280" y="64" width="180" height="8" rx="4" fill="#252c35"/>
+    <rect x="280" y="96" width="330" height="8" rx="4" fill="#252c35"/>
+    <rect x="280" y="116" width="290" height="8" rx="4" fill="#252c35"/>
+    <rect x="280" y="148" width="104" height="26" rx="13" fill="#1a2434" stroke="#2b3a52"/>
+  </g>
+
+  <g transform="translate(1090 540)">
+    <rect width="250" height="190" rx="14" fill="#12161d" stroke="#242a33"/>
+    <rect x="22" y="22" width="206" height="90" rx="10" fill="#1a2028"/>
+    <circle cx="125" cy="67" r="28" fill="none" stroke="#32405a" stroke-width="2"/>
+    <path d="M111 67h28M125 53v28" stroke="#32405a" stroke-width="1.5"/>
+    <rect x="22" y="132" width="130" height="9" rx="4.5" fill="#333b48"/>
+    <rect x="22" y="154" width="90" height="8" rx="4" fill="#252c35"/>
+  </g>
+
+  <text x="230" y="900" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="1.5">Placeholder artwork - add a real project screenshot to replace this image.</text>
+</svg>

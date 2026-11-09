@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder for MD. Abdullah Al Shahed</title>
+  <desc id="desc">A dark placeholder graphic with the initials AS. Replace this file in the public folder with a professional photograph.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10141a"/>
+      <stop offset="1" stop-color="#090b0e"/>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#1b2028" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#grid)" opacity="0.65"/>
+
+  <path d="M70 130V70h60" fill="none" stroke="#2b313c" stroke-width="2"/>
+  <path d="M730 870v60h-60" fill="none" stroke="#2b313c" stroke-width="2"/>
+
+  <line x1="70" y1="70" x2="148" y2="70" stroke="#9db8ff" stroke-width="2"/>
+  <text x="70" y="102" fill="#8b93a1" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="3.5">MD. ABDULLAH AL SHAHED</text>
+
+  <circle cx="400" cy="440" r="214" fill="none" stroke="#202630" stroke-width="1.5"/>
+  <circle cx="400" cy="440" r="164" fill="#12161d" stroke="#252b35" stroke-width="1.5"/>
+  <path d="M541 326a164 164 0 0 0-83-67" fill="none" stroke="#9db8ff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+  <text x="400" y="500" text-anchor="middle" fill="#f2f5f9" font-family="Segoe UI, Arial, sans-serif" font-size="150" font-weight="600" letter-spacing="-6">AS</text>
+
+  <text x="400" y="640" text-anchor="middle" fill="#8b93a1" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="6">PORTRAIT PLACEHOLDER</text>
+  <text x="400" y="670" text-anchor="middle" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2.5">ADD A PROFESSIONAL PHOTO</text>
+
+  <line x1="70" y1="900" x2="730" y2="900" stroke="#1d2129" stroke-width="1"/>
+  <text x="70" y="932" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2">REPLACE /public/profile-placeholder.svg</text>
+  <text x="730" y="932" text-anchor="end" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2">FULL STACK / JAVASCRIPT</text>
+</svg>

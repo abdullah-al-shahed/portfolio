@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Project preview placeholder 02</title>
+  <desc id="desc">An abstract placeholder for a future project case study. Replace with a real screenshot.</desc>
+
+  <rect width="1600" height="1000" fill="#090b0e"/>
+  <circle cx="220" cy="240" r="300" fill="none" stroke="#151a21" stroke-width="1.5"/>
+  <circle cx="220" cy="240" r="220" fill="none" stroke="#151a21" stroke-width="1.5"/>
+
+  <text x="120" y="70" fill="#8b93a1" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="4">CASE STUDY / PLACEHOLDER 02</text>
+  <text x="1480" y="70" text-anchor="end" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2.5">PREVIEW PENDING</text>
+
+  <rect x="230" y="160" width="1140" height="680" rx="22" fill="#0e1116" stroke="#2b313c" stroke-width="1.5" stroke-dasharray="10 10"/>
+  <rect x="230" y="160" width="1140" height="56" rx="22" fill="#11151b"/>
+  <rect x="230" y="192" width="1140" height="24" fill="#11151b"/>
+  <line x1="230" y1="216" x2="1370" y2="216" stroke="#232932"/>
+  <circle cx="264" cy="189" r="5" fill="#3a414d"/>
+  <circle cx="284" cy="189" r="5" fill="#3a414d"/>
+  <circle cx="304" cy="189" r="5" fill="#3a414d"/>
+
+  <g transform="translate(310 300)">
+    <rect width="520" height="390" rx="16" fill="#12161d" stroke="#242a33"/>
+    <rect x="24" y="24" width="472" height="160" rx="10" fill="#1a2028"/>
+    <path d="M60 148V92M104 148V118M148 148V72M192 148V104M236 148V56M280 148V124M324 148V84M368 148V136M412 148V100" stroke="#32405a" stroke-width="16" stroke-linecap="round"/>
+    <rect x="24" y="212" width="240" height="10" rx="5" fill="#39414e"/>
+    <rect x="24" y="234" width="170" height="8" rx="4" fill="#252c35"/>
+    <rect x="24" y="270" width="472" height="8" rx="4" fill="#252c35"/>
+    <rect x="24" y="290" width="420" height="8" rx="4" fill="#252c35"/>
+    <rect x="24" y="326" width="108" height="28" rx="14" fill="#1a2434" stroke="#2b3a52"/>
+    <rect x="144" y="326" width="74" height="28" rx="14" fill="#151b24" stroke="#232a33"/>
+  </g>
+
+  <g transform="translate(870 300)">
+    <rect width="480" height="186" rx="16" fill="#12161d" stroke="#242a33"/>
+    <text x="32" y="72" fill="#f2f5f9" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.8">Project preview</text>
+    <text x="32" y="106" fill="#7d8694" font-family="Segoe UI, Arial, sans-serif" font-size="13">Add a screenshot and the real project details.</text>
+    <rect x="32" y="132" width="120" height="9" rx="4.5" fill="#252c35"/>
+    <rect x="32" y="152" width="84" height="9" rx="4.5" fill="#252c35"/>
+    <text x="448" y="152" text-anchor="end" fill="#9db8ff" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="600" letter-spacing="-4" opacity="0.15">02</text>
+  </g>
+
+  <g transform="translate(870 504)">
+    <rect width="480" height="186" rx="16" fill="#12161d" stroke="#242a33"/>
+    <rect x="24" y="24" width="132" height="138" rx="10" fill="#1a2028"/>
+    <circle cx="90" cy="93" r="34" fill="none" stroke="#32405a" stroke-width="2"/>
+    <path d="M74 93h32M90 77v32" stroke="#32405a" stroke-width="1.5"/>
+    <rect x="184" y="44" width="220" height="10" rx="5" fill="#39414e"/>
+    <rect x="184" y="68" width="160" height="8" rx="4" fill="#252c35"/>
+    <rect x="184" y="100" width="250" height="8" rx="4" fill="#252c35"/>
+    <rect x="184" y="120" width="200" height="8" rx="4" fill="#252c35"/>
+    <rect x="184" y="148" width="92" height="26" rx="13" fill="#1a2434" stroke="#2b3a52"/>
+  </g>
+
+  <text x="230" y="900" fill="#5f6774" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="1.5">Placeholder artwork - add a real project screenshot to replace this image.</text>
+</svg>
